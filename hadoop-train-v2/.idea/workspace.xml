@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f29e777c-a988-4bb0-b72b-94e8091794f7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VDO1oUPvaOEjk3FUNhsursOyWi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RunManager" selected="Application.HDFSWCApp01">
+    <configuration name="HDFSWCApp01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.bigdata.hadoop.hdfs.HDFSWCApp01" />
+      <module name="hadoop-train-v2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.bigdata.hadoop.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HDFSapp.copyFromLocalBigFile (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hadoop-train-v2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.bigdata.hadoop.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.bigdata.hadoop.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.bigdata.hadoop.hdfs.HDFSapp" />
+      <option name="METHOD_NAME" value="copyFromLocalBigFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HDFSapp.copyFromLocalBigFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hadoop-train-v2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.bigdata.hadoop.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.bigdata.hadoop.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.bigdata.hadoop.hdfs.HDFSapp" />
+      <option name="METHOD_NAME" value="copyFromLocalBigFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HDFSapp.copyFromLocalFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hadoop-train-v2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.bigdata.hadoop.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.bigdata.hadoop.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.bigdata.hadoop.hdfs.HDFSapp" />
+      <option name="METHOD_NAME" value="copyFromLocalFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HDFSapp.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hadoop-train-v2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.bigdata.hadoop.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.bigdata.hadoop.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.bigdata.hadoop.hdfs.HDFSapp" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HDFSWCApp01" />
+        <item itemvalue="JUnit.HDFSapp.copyFromLocalFile" />
+        <item itemvalue="JUnit.HDFSapp.delete" />
+        <item itemvalue="JUnit.HDFSapp.copyFromLocalBigFile (1)" />
+        <item itemvalue="JUnit.HDFSapp.copyFromLocalBigFile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f29e777c-a988-4bb0-b72b-94e8091794f7" name="Default Changelist" comment="" />
+      <created>1576783986294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576783986294</updated>
+      <workItem from="1576783989139" duration="49000" />
+      <workItem from="1576784315027" duration="6784000" />
+      <workItem from="1576819494894" duration="7812000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2137" y="153" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1576790331408">
+      <screen x="1440" y="-157" width="1920" height="955" />
+    </state>
+    <state x="2137" y="153" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/1440.-157.1920.955/0.23.1440.877@1440.-157.1920.955" timestamp="1576790331408" />
+    <state x="2213" y="33" key="#com.intellij.ide.util.MemberChooser" timestamp="1576869170280">
+      <screen x="1440" y="-157" width="1920" height="1057" />
+    </state>
+    <state x="2213" y="33" key="#com.intellij.ide.util.MemberChooser/1440.-157.1920.1057/0.23.1440.775@1440.-157.1920.1057" timestamp="1576869170280" />
+    <state x="2025" y="-6" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1576789670955">
+      <screen x="1440" y="-157" width="1920" height="955" />
+    </state>
+    <state x="2025" y="-6" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/1440.-157.1920.955/0.23.1440.877@1440.-157.1920.955" timestamp="1576789670955" />
+    <state width="1920" height="262" key="GridCell.Tab.0.bottom" timestamp="1576869550857">
+      <screen x="1440" y="-157" width="1920" height="1057" />
+    </state>
+    <state width="1920" height="262" key="GridCell.Tab.0.bottom/1440.-157.1920.1057/0.23.1440.775@1440.-157.1920.1057" timestamp="1576869550857" />
+    <state width="1920" height="262" key="GridCell.Tab.0.bottom/1440.-157.1920.955/0.23.1440.877@1440.-157.1920.955" timestamp="1576796099944" />
+    <state width="1920" height="262" key="GridCell.Tab.0.center" timestamp="1576869550856">
+      <screen x="1440" y="-157" width="1920" height="1057" />
+    </state>
+    <state width="1920" height="262" key="GridCell.Tab.0.center/1440.-157.1920.1057/0.23.1440.775@1440.-157.1920.1057" timestamp="1576869550856" />
+    <state width="1920" height="262" key="GridCell.Tab.0.center/1440.-157.1920.955/0.23.1440.877@1440.-157.1920.955" timestamp="1576796099943" />
+    <state width="1920" height="262" key="GridCell.Tab.0.left" timestamp="1576869550855">
+      <screen x="1440" y="-157" width="1920" height="1057" />
+    </state>
+    <state width="1920" height="262" key="GridCell.Tab.0.left/1440.-157.1920.1057/0.23.1440.775@1440.-157.1920.1057" timestamp="1576869550855" />
+    <state width="1920" height="262" key="GridCell.Tab.0.left/1440.-157.1920.955/0.23.1440.877@1440.-157.1920.955" timestamp="1576796099942" />
+    <state width="1920" height="262" key="GridCell.Tab.0.right" timestamp="1576869550856">
+      <screen x="1440" y="-157" width="1920" height="1057" />
+    </state>
+    <state width="1920" height="262" key="GridCell.Tab.0.right/1440.-157.1920.1057/0.23.1440.775@1440.-157.1920.1057" timestamp="1576869550856" />
+    <state width="1920" height="262" key="GridCell.Tab.0.right/1440.-157.1920.955/0.23.1440.877@1440.-157.1920.955" timestamp="1576796099943" />
+    <state x="1909" y="-41" key="SettingsEditor" timestamp="1576790554009">
+      <screen x="1440" y="-157" width="1920" height="955" />
+    </state>
+    <state x="1909" y="-41" key="SettingsEditor/1440.-157.1920.955/0.23.1440.877@1440.-157.1920.955" timestamp="1576790554009" />
+  </component>
+</project>
