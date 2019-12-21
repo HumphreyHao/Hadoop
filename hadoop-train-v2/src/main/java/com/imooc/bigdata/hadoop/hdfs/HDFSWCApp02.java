@@ -2,14 +2,12 @@ package com.imooc.bigdata.hadoop.hdfs;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.*;
-import org.apache.hadoop.io.IOUtils;
-import org.apache.hadoop.util.Progressable;
-import sun.jvm.hotspot.memory.TenuredGeneration;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.net.URI;
-import java.util.HashMap;
 import java.util.Map;
+import java.util.Properties;
 import java.util.Set;
 
 /*
@@ -23,15 +21,20 @@ import java.util.Set;
  * @Param
  * @return
  **/
-public class HDFSWCApp01 {
+public class HDFSWCApp02 {
     public static void main(String[] args) throws Exception {
         //读取文件
-        Path input = new Path("");
+
+        Properties properties = ParamsUtils.getProperties();
+        Path input = new Path(properties.getProperty(Constants.INPUT_PATH));
         //获取要操作的fs文件系统
-        FileSystem fs = FileSystem.get(new URI(""), new Configuration(), "zhaohao");
+        FileSystem fs = FileSystem.get(new URI(properties.getProperty(Constants.HDFS_URI)), new Configuration(), "zhaohao");
 
         RemoteIterator<LocatedFileStatus> iterator = fs.listFiles(input,false);
-        WordCountMapper mapper = new WordCountMapper();
+        //通过反射获取一个新的对象
+        Class<?> clazz =Class.forName(properties.getProperty(Constants.MAPPER_CLASS));
+        ImoocMapper mapper =(ImoocMapper) clazz.newInstance();
+
         ImoocContext context = new ImoocContext();
         //读取出来
         while (iterator.hasNext()){
@@ -62,9 +65,9 @@ public class HDFSWCApp01 {
 
 
         //将结果输出
-        Path output = new Path("");
+        Path output = new Path(properties.getProperty(Constants.OUTPUT_PATH));
 
-        FSDataOutputStream out = fs.create(new Path(output,new Path("")));
+        FSDataOutputStream out = fs.create(new Path(output,new Path(properties.getProperty(Constants.OUTPUT_FILE))));
 
         //将缓存中的内容输出到out中
         Set<Map.Entry<Object,Object>> entries= contextMap.entrySet();
